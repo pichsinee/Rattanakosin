@@ -30,7 +30,7 @@ public class MyListView extends AppCompatActivity {
         String[] nameString = new String[cursor.getCount()];    //จองพื้นที่หน่วยความจำให้เท่ากับข้อมูลที่ดึงขึ้นมา
         for (int i=0; i<nameString.length;i++) {
             nameString[i] = cursor.getString(1);    //ดึง field Name เก็บในตัวแปร  nameString
-            cursor.moveToNext()
+            cursor.moveToNext();
         }
 
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(MyListView.this,
