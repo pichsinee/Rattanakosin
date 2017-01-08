@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (!passwordString.equals(passwordTrueString)) {
             //Password False ใส่ Password ผิด
             myDialog(getResources().getString(R.string.passFalse));
+
         } else {
             //Welcome ต้อนรับเข้าสู่ระบบ
             myDialog("ยินดีต้อนรับ " + nameString + "เข้าสู่ระบบ");
