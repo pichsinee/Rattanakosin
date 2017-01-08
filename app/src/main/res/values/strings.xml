@@ -2,5 +2,8 @@
     <string name="app_name">Rattanakosin</string>
 
     <string name="SignUp">สมัครสมาชิก</string>
+    <string name="haveSpace">กรุณากรอกข้อมูลให้ครบทุกช่อง</string>
+    <string name="userFalse">กรอกข้อมูล User Name ไม่ถูกต้อง</string>
+    <string name="passFalse">กรอกข้อมูล Password ไม่ถูกต้อง กรุณากรอกใหม่</string>
 
 </resources>

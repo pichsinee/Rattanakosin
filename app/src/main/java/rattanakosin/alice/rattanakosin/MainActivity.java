@@ -10,11 +10,14 @@ public class MainActivity extends AppCompatActivity {
 
     // Explicit ประกาศตัวแปร
     private Button signInButton, signUpButton;
+    private MyManage myManage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        myManage = new MyManage(MainActivity.this);
 
         bindWidget();
         buttonController();
