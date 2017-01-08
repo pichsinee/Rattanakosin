@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             //Welcome ต้อนรับเข้าสู่ระบบ
             myDialog("ยินดีต้อนรับ " + nameString + "เข้าสู่ระบบ");
+            startActivity(new Intent(MainActivity.this, MyListView.class)); //ลิงก์ข้อมูลจาก MainActivity ไปยัง MyListView
         }
 
     } //Check Authen
